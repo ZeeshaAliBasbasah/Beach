@@ -15,8 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".features.activity.HotelActivity"></activity>
-        <activity android:name=".features.activity.FlightActivity">
+        <activity android:name=".features.activity.FlightActivity" />
+        <activity android:name=".features.activity.HotelActivity" />
+        <activity android:name=".features.activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

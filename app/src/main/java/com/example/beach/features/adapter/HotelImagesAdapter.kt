@@ -1,44 +1,38 @@
 package com.example.beach.features.adapter
 
+import android.content.Context
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
-import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.beach.R
-import com.example.beach.databinding.FlightItemRecyclerBinding
-import com.example.beach.features.model.Flight
+import kotlinx.android.synthetic.main.hotel_images_item.view.*
 
-class HotelImagesAdapter(private var images: List<String>) :
+class HotelImagesAdapter(private var images: List<String>, private val context: Context) :
     RecyclerView.Adapter<HotelImagesAdapter.FlightsViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FlightsViewHolder {
-        val binding: ViewDataBinding = DataBindingUtil.inflate(
-            LayoutInflater.from(parent.context),
-            R.layout.hotel_images_item,
-            parent,
-            false
+        return FlightsViewHolder(
+            LayoutInflater.from(context).inflate(
+                R.layout.hotel_images_item,
+                parent,
+                false
+            )
         )
-        return FlightsViewHolder(binding)
     }
-
 
     override fun getItemCount(): Int {
         return images.size
     }
 
     override fun onBindViewHolder(holder: FlightsViewHolder, p1: Int) {
-        holder.bind(images[holder.adapterPosition])
+        Glide.with(context).load(images[p1]).into(holder.hotelImage)
     }
 
-
-    inner class FlightsViewHolder(val binding: ViewDataBinding) :
-        RecyclerView.ViewHolder(binding.root) {
-
-        fun bind(flight: String) {
-            (binding as FlightItemRecyclerBinding).flight = flight
-            binding.executePendingBindings()
-        }
+    inner class FlightsViewHolder(view: View) :
+        RecyclerView.ViewHolder(view) {
+        val hotelImage = view.image
     }
 
 }

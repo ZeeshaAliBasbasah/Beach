@@ -28,8 +28,8 @@ abstract class BaseActivity<DB: ViewDataBinding,VM: BaseViewModel>(mViewModelCla
     open fun onInject() {}
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
         onInject()
+        super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, getLayoutRes())
         initViewModel(viewModel)
     }

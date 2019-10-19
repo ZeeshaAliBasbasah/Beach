@@ -51,6 +51,9 @@ public abstract class FlightItemRecyclerBinding extends ViewDataBinding {
   public final TextView price;
 
   @NonNull
+  public final TextView select;
+
+  @NonNull
   public final TextView to;
 
   @Bindable
@@ -59,7 +62,7 @@ public abstract class FlightItemRecyclerBinding extends ViewDataBinding {
   protected FlightItemRecyclerBinding(Object _bindingComponent, View _root, int _localFieldCount,
       TextView arrival, TextView arrivalAirPort, TextView arrivalDate, CardView cardView,
       TextView departure, TextView departureAirPort, TextView departuredate, TextView flightName,
-      TextView from, View myRectangleView, TextView price, TextView to) {
+      TextView from, View myRectangleView, TextView price, TextView select, TextView to) {
     super(_bindingComponent, _root, _localFieldCount);
     this.arrival = arrival;
     this.arrivalAirPort = arrivalAirPort;
@@ -72,6 +75,7 @@ public abstract class FlightItemRecyclerBinding extends ViewDataBinding {
     this.from = from;
     this.myRectangleView = myRectangleView;
     this.price = price;
+    this.select = select;
     this.to = to;
   }
 

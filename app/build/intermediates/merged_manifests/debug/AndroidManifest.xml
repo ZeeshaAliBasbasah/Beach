@@ -24,8 +24,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.beach.features.activity.FlightActivity" />
         <activity android:name="com.example.beach.features.activity.HotelActivity" />
-        <activity android:name="com.example.beach.features.activity.FlightActivity" >
+        <activity android:name="com.example.beach.features.activity.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

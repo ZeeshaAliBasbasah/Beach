@@ -4,22 +4,56 @@ package com.example.beach.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+import android.widget.RatingBar;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import androidx.recyclerview.widget.RecyclerView;
 import com.example.beach.R;
 import com.example.beach.features.viewmodel.HotelViewModel;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class ActivityHotelBinding extends ViewDataBinding {
+  @NonNull
+  public final ListView facility;
+
+  @NonNull
+  public final TextView facilityText;
+
+  @NonNull
+  public final TextView hotelAddress;
+
+  @NonNull
+  public final TextView hotelDescription;
+
+  @NonNull
+  public final TextView hotelName;
+
+  @NonNull
+  public final RatingBar hotelRating;
+
+  @NonNull
+  public final RecyclerView imagesRecycleView;
+
   @Bindable
   protected HotelViewModel mHotelViewModel;
 
-  protected ActivityHotelBinding(Object _bindingComponent, View _root, int _localFieldCount) {
+  protected ActivityHotelBinding(Object _bindingComponent, View _root, int _localFieldCount,
+      ListView facility, TextView facilityText, TextView hotelAddress, TextView hotelDescription,
+      TextView hotelName, RatingBar hotelRating, RecyclerView imagesRecycleView) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.facility = facility;
+    this.facilityText = facilityText;
+    this.hotelAddress = hotelAddress;
+    this.hotelDescription = hotelDescription;
+    this.hotelName = hotelName;
+    this.hotelRating = hotelRating;
+    this.imagesRecycleView = imagesRecycleView;
   }
 
   public abstract void setHotelViewModel(@Nullable HotelViewModel hotelViewModel);

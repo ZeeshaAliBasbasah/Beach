@@ -19,6 +19,7 @@ public class FlightItemRecyclerBindingImpl extends FlightItemRecyclerBinding  {
         sViewsWithIds.put(R.id.to, 9);
         sViewsWithIds.put(R.id.departure, 10);
         sViewsWithIds.put(R.id.arrival, 11);
+        sViewsWithIds.put(R.id.select, 12);
     }
     // views
     // variables
@@ -27,7 +28,7 @@ public class FlightItemRecyclerBindingImpl extends FlightItemRecyclerBinding  {
     // Inverse Binding Event Handlers
 
     public FlightItemRecyclerBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 12, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 13, sIncludes, sViewsWithIds));
     }
     private FlightItemRecyclerBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
@@ -42,6 +43,7 @@ public class FlightItemRecyclerBindingImpl extends FlightItemRecyclerBinding  {
             , (android.widget.TextView) bindings[8]
             , (android.view.View) bindings[7]
             , (android.widget.TextView) bindings[1]
+            , (android.widget.TextView) bindings[12]
             , (android.widget.TextView) bindings[9]
             );
         this.arrivalAirPort.setTag(null);

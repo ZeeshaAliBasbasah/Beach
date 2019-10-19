@@ -332,6 +332,10 @@
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\9c933b15d9f93e76e4d82ea7601e25c9\\core-1.1.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.png.flat",
+        "source": "E:\\My Data\\Beach\\app\\src\\main\\res\\drawable\\background.png"
+    },
+    {
         "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\5ea0b29cb75204746db73749dcd594c6\\appcompat-1.1.0\\res\\layout\\select_dialog_item_material.xml"
     },
@@ -704,6 +708,10 @@
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\5ea0b29cb75204746db73749dcd594c6\\appcompat-1.1.0\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\res\\merged\\debug\\layout_hotel_images_item.xml.flat",
+        "source": "E:\\My Data\\Beach\\app\\src\\main\\res\\layout\\hotel_images_item.xml"
+    },
+    {
         "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\5ea0b29cb75204746db73749dcd594c6\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -818,6 +826,10 @@
     {
         "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\5ea0b29cb75204746db73749dcd594c6\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\res\\merged\\debug\\layout_facility_item.xml.flat",
+        "source": "E:\\My Data\\Beach\\app\\src\\main\\res\\layout\\facility_item.xml"
     },
     {
         "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -1586,6 +1598,10 @@
     {
         "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\5ea0b29cb75204746db73749dcd594c6\\appcompat-1.1.0\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "E:\\My Data\\Beach\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
         "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",

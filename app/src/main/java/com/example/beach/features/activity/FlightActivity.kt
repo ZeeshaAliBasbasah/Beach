@@ -67,7 +67,7 @@ class FlightActivity :
     private fun inflateRecyclerView(albums: List<Flight>?) {
         albums?.let {
             recyclerView.layoutManager = LinearLayoutManager(this)
-            recyclerView.adapter = FlightAdapter(it)
+            recyclerView.adapter = FlightAdapter(it, this)
         }
     }
 

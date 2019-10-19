@@ -471,6 +471,7 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color secondPrimaryColor
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -481,6 +482,7 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color titleColor
 color tooltip_background_dark
 color tooltip_background_light
 dimen abc_action_bar_content_inset_material
@@ -695,6 +697,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable background
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -820,6 +823,8 @@ id edit_query
 id end
 id expand_activities_button
 id expanded_menu
+id facility
+id facilityText
 id fill
 id fill_horizontal
 id fill_vertical
@@ -831,10 +836,15 @@ id group_divider
 id groups
 id home
 id homeAsUp
+id hotelAddress
+id hotelDescription
+id hotelName
+id hotelRating
 id icon
 id icon_group
 id ifRoom
 id image
+id imagesRecycleView
 id info
 id invisible
 id italic
@@ -886,6 +896,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id select
 id select_dialog_listview
 id shortcut
 id showCustom
@@ -972,8 +983,11 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_hotel
 layout activity_main
+layout activity_splash
 layout custom_dialog
+layout facility_item
 layout flight_item_recycler
+layout hotel_images_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -1014,8 +1028,13 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string arrival
+string departure
+string from
 string search_menu_title
+string select
 string status_bar_notification_info_overflow
+string to
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

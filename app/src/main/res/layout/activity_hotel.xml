@@ -16,7 +16,7 @@
         tools:context=".features.activity.HotelActivity">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/hotelImages"
+            android:id="@+id/imagesRecycleView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent" />
@@ -25,17 +25,36 @@
             android:id="@+id/hotelName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@{hotelViewModel.hotelName}"
+            android:textColor="@color/secondPrimaryColor"
+            android:textSize="15sp"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/hotelImages"
+            app:layout_constraintTop_toBottomOf="@+id/imagesRecycleView"
             tools:text="Barcelona" />
+
+        <RatingBar
+            android:id="@+id/hotelRating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:rating="@{hotelViewModel.rating}"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hotelName" />
 
         <TextView
             android:id="@+id/hotelAddress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@{hotelViewModel.hotelAddress}"
+            app:layout_constraintLeft_toLeftOf="@+id/hotelName"
+            app:layout_constraintStart_toStartOf="@+id/hotelName"
             app:layout_constraintTop_toBottomOf="@+id/hotelName"
             tools:text="London UK" />
 
@@ -44,26 +63,34 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@{hotelViewModel.hotelDescription}"
+            app:layout_constraintLeft_toLeftOf="@+id/hotelName"
+            app:layout_constraintStart_toStartOf="@+id/hotelName"
             app:layout_constraintTop_toBottomOf="@+id/hotelAddress"
             tools:text="Hotel Description" />
 
-        <RatingBar
-            android:id="@+id/hotelRating"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:rating="3.5"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/hotelDescription" />
-
         <TextView
-            android:id="@+id/hotelFacilities"
+            android:id="@+id/facilityText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/hotelRating"
-            tools:text="Hotel Facilities" />
+            android:fontFamily="sans-serif-black"
+            android:text="Facilities"
+            android:textColor="@color/secondPrimaryColor"
+            android:textSize="15sp"
+            app:layout_constraintRight_toLeftOf="@id/hotelName"
+            app:layout_constraintStart_toStartOf="@+id/hotelName"
+            app:layout_constraintTop_toBottomOf="@+id/hotelDescription" />
+
+        <ListView
+            android:id="@+id/facility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            app:layout_constraintLeft_toLeftOf="@+id/hotelName"
+            app:layout_constraintStart_toStartOf="@+id/hotelName"
+            app:layout_constraintTop_toBottomOf="@+id/facilityText" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

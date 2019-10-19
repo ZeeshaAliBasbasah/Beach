@@ -60,8 +60,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="From"
-                android:textColor="#323232"
+                android:text="@string/from"
+                android:textColor="@color/titleColor"
                 app:layout_constraintBottom_toTopOf="@+id/departureAirPort"
                 app:layout_constraintLeft_toLeftOf="@+id/departureAirPort" />
 
@@ -83,7 +83,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="To"
+                android:text="@string/to"
+                android:textColor="@color/titleColor"
                 app:layout_constraintBottom_toTopOf="@+id/arrivalAirPort"
                 app:layout_constraintLeft_toLeftOf="@+id/arrivalAirPort"
                 app:layout_constraintStart_toStartOf="@+id/arrivalAirPort" />
@@ -108,7 +109,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Departure"
+                android:text="@string/departure"
+                android:textColor="@color/titleColor"
                 app:layout_constraintBottom_toTopOf="@+id/departuredate"
                 app:layout_constraintLeft_toLeftOf="@+id/departuredate" />
 
@@ -127,7 +129,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Arrival"
+                android:text="@string/arrival"
+                android:textColor="@color/titleColor"
                 app:layout_constraintBottom_toTopOf="@+id/arrivalDate"
                 app:layout_constraintLeft_toLeftOf="@+id/arrivalDate" />
 
@@ -142,13 +145,15 @@
                 tool:text="2/3/2019" />
 
             <TextView
+                android:id="@+id/select"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginRight="15dp"
-                android:text="Select"
-                android:textColor="#FE5F55"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/select"
+                android:textColor="@color/secondPrimaryColor"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/arrivalDate" />
         </androidx.constraintlayout.widget.ConstraintLayout>
