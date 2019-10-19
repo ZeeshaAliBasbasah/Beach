@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\My Data\\Beach\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\flight_item_recycler.xml",
+        "source": "E:\\My Data\\Beach\\app\\src\\main\\res\\layout\\flight_item_recycler.xml"
+    },
+    {
+        "merged": "E:\\My Data\\Beach\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_hotel.xml",
+        "source": "E:\\My Data\\Beach\\app\\src\\main\\res\\layout\\activity_hotel.xml"
+    }
+]
