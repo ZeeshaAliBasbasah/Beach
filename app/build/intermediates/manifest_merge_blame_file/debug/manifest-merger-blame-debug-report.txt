@@ -40,40 +40,39 @@
 23-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:15:9-54
 24        android:supportsRtl="true"
 24-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:16:9-35
-25        android:testOnly="true"
-26        android:theme="@style/AppTheme" >
-26-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:17:9-40
-27        <activity android:name="com.example.beach.features.activity.FlightActivity" />
-27-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:18:9-70
-27-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:18:19-67
-28        <activity android:name="com.example.beach.features.activity.HotelActivity" />
-28-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:19:9-69
-28-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:19:19-66
-29        <activity android:name="com.example.beach.features.activity.SplashActivity" >
-29-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:20:9-26:20
-29-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:20:19-67
-30            <intent-filter>
-30-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:21:13-25:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:22:17-69
-31-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:22:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:24:17-77
-33-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:24:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <provider
-37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b152b3c04d3a695c87d2a265ecb4f689\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-38-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b152b3c04d3a695c87d2a265ecb4f689\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-39            android:authorities="com.example.beach.lifecycle-process"
-39-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b152b3c04d3a695c87d2a265ecb4f689\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-40            android:exported="false"
-40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b152b3c04d3a695c87d2a265ecb4f689\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-41            android:multiprocess="true" />
-41-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b152b3c04d3a695c87d2a265ecb4f689\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-42    </application>
-43
-44</manifest>
+25        android:theme="@style/AppTheme" >
+25-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:17:9-40
+26        <activity android:name="com.example.beach.features.activity.FlightActivity" />
+26-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:18:9-70
+26-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:18:19-67
+27        <activity android:name="com.example.beach.features.activity.HotelActivity" />
+27-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:19:9-69
+27-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:19:19-66
+28        <activity android:name="com.example.beach.features.activity.SplashActivity" >
+28-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:20:9-26:20
+28-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:20:19-67
+29            <intent-filter>
+29-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:21:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:22:17-69
+30-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:22:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:24:17-77
+32-->E:\My Data\Beach\app\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b152b3c04d3a695c87d2a265ecb4f689\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b152b3c04d3a695c87d2a265ecb4f689\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+38            android:authorities="com.example.beach.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b152b3c04d3a695c87d2a265ecb4f689\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b152b3c04d3a695c87d2a265ecb4f689\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b152b3c04d3a695c87d2a265ecb4f689\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+41    </application>
+42
+43</manifest>
